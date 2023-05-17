@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 50px 200px;
+
+  font-size: 30px;
+  line-height: 1.5;
+  font-family: cursive;
+
+  color: #2a2a2a;
+  /* background-color: #d4e6f1; */
+  background-image: url("../images/map.jpg");
+  background-repeat: no-repeat;
+  background-position: top 120px center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.search-input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 25px 20px;
+
+  height: 40px;
+  min-width: 550px;
+
+  font-family: cursive;
+  font-size: 25px;
+  color: #2a2a2a;
+
+  border: 3px solid teal;
+  border-radius: 10px;
+}
+
+.countries-list {
+  margin: 0;
+  padding: 0 0 0 180px;
+  list-style: inside;
+}
+
+.languages-list {
+  margin: 0;
+  padding: 0 0 0 25px;
+  list-style: inside;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 120px;
+}
+
+.card-title {
+  margin: 0 0 30px 0;
+  padding: 0;
+  font-size: 50px;
+  text-align: center;
+}
+
+.card-img {
+  width: 400px;
+}
+
+.card-text {
+  padding: 0;
+  margin: 0 0 15px 0;
+}

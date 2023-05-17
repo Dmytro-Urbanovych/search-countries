@@ -1,0 +1,32 @@
+{
+  "name": "countries-project",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://Dmytro-Urbanovych.github.io/countries-project",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /countries-project/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmytro-Urbanovych/countries-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "handlebars-loader": "^1.7.1",
+    "lodash.debounce": "^4.0.8",
+    "modern-normalize": "^1.1.0",
+    "pnotify": "^5.1.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-transformer-hbs": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
