@@ -554,7 +554,7 @@ function clearCountriesContainer() {
     refs.countryContainer.innerHTML = "";
 }
 
-},{"./js/get-refs":"jW5cQ","./js/fetch-countries":"3Hsrc","./templates/country-card.hbs":"54Qom","./templates/countries-list.hbs":"7jgeX","./js/pnotife-results":"jJanU","@pnotify/core/dist/PNotify.css":"c4y47","@pnotify/core/dist/BrightTheme.css":"grIyt","lodash.debounce":"3JP5n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./sass/index.scss":"9OQSl"}],"jW5cQ":[function(require,module,exports) {
+},{"./sass/index.scss":"9OQSl","./js/get-refs":"jW5cQ","./js/fetch-countries":"3Hsrc","./templates/country-card.hbs":"54Qom","./templates/countries-list.hbs":"7jgeX","./js/pnotife-results":"jJanU","@pnotify/core/dist/PNotify.css":"c4y47","@pnotify/core/dist/BrightTheme.css":"grIyt","lodash.debounce":"3JP5n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9OQSl":[function() {},{}],"jW5cQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function getRefs() {
@@ -617,7 +617,7 @@ const templateFunction = (0, _handlebarsDefault.default).template({
             if (Object.prototype.hasOwnProperty.call(parent, propertyName)) return parent[propertyName];
             return undefined;
         };
-        return '<div class="card">\n    <h2 class="card-title">' + alias4((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        return '<div class="card">\r\n    <h2 class="card-title">' + alias4((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "name",
             "hash": {},
             "data": data,
@@ -631,7 +631,7 @@ const templateFunction = (0, _handlebarsDefault.default).template({
                     "column": 35
                 }
             }
-        }) : helper)) + '</h2>\n    <div class="card-body">\n        <div>\n            <p class="card-text"><b>Capital: </b>' + alias4((helper = (helper = lookupProperty(helpers, "capital") || (depth0 != null ? lookupProperty(depth0, "capital") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        }) : helper)) + '</h2>\r\n    <div class="card-body">\r\n        <div>\r\n            <p class="card-text"><b>Capital: </b>' + alias4((helper = (helper = lookupProperty(helpers, "capital") || (depth0 != null ? lookupProperty(depth0, "capital") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "capital",
             "hash": {},
             "data": data,
@@ -645,7 +645,7 @@ const templateFunction = (0, _handlebarsDefault.default).template({
                     "column": 60
                 }
             }
-        }) : helper)) + '</p>\n            <p class="card-text"><b>Population: </b>' + alias4((helper = (helper = lookupProperty(helpers, "population") || (depth0 != null ? lookupProperty(depth0, "population") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        }) : helper)) + '</p>\r\n            <p class="card-text"><b>Population: </b>' + alias4((helper = (helper = lookupProperty(helpers, "population") || (depth0 != null ? lookupProperty(depth0, "population") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "population",
             "hash": {},
             "data": data,
@@ -659,7 +659,7 @@ const templateFunction = (0, _handlebarsDefault.default).template({
                     "column": 66
                 }
             }
-        }) : helper)) + '</p>\n            <p class="card-text"><b>Languages: </b>' + alias4((helper = (helper = lookupProperty(helpers, "languages") || (depth0 != null ? lookupProperty(depth0, "languages") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        }) : helper)) + '</p>\r\n            <p class="card-text"><b>Languages: </b>' + alias4((helper = (helper = lookupProperty(helpers, "languages") || (depth0 != null ? lookupProperty(depth0, "languages") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "languages",
             "hash": {},
             "data": data,
@@ -673,7 +673,7 @@ const templateFunction = (0, _handlebarsDefault.default).template({
                     "column": 64
                 }
             }
-        }) : helper)) + '</p>\n        </div>\n        <div>\n            <img src="' + alias4((helper = (helper = lookupProperty(helpers, "flag") || (depth0 != null ? lookupProperty(depth0, "flag") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        }) : helper)) + '</p>\r\n        </div>\r\n        <div>\r\n            <img src="' + alias4((helper = (helper = lookupProperty(helpers, "flag") || (depth0 != null ? lookupProperty(depth0, "flag") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "flag",
             "hash": {},
             "data": data,
@@ -701,7 +701,7 @@ const templateFunction = (0, _handlebarsDefault.default).template({
                     "column": 53
                 }
             }
-        }) : helper)) + '" class="card-img">\n        </div>\n    </div>\n</div>\n';
+        }) : helper)) + '" class="card-img">\r\n        </div>\r\n    </div>\r\n</div>\r\n';
     },
     "compiler": [
         8,
@@ -12077,7 +12077,7 @@ const templateFunction = (0, _handlebarsDefault.default).template({
                     "column": 34
                 }
             }
-        }) : helper)) + "</li>\n";
+        }) : helper)) + "</li>\r\n";
     },
     "compiler": [
         8,
@@ -12088,7 +12088,7 @@ const templateFunction = (0, _handlebarsDefault.default).template({
             if (Object.prototype.hasOwnProperty.call(parent, propertyName)) return parent[propertyName];
             return undefined;
         };
-        return '<ul class="countries-list">\n' + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, depth0, {
+        return '<ul class="countries-list">\r\n' + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, depth0, {
             "name": "each",
             "hash": {},
             "fn": container.program(1, data, 0),
@@ -15048,6 +15048,6 @@ var global = arguments[3];
 }
 module.exports = debounce;
 
-},{}],"9OQSl":[function() {},{}]},["1RB6v","8lqZg"], "8lqZg", "parcelRequired05c")
+},{}]},["1RB6v","8lqZg"], "8lqZg", "parcelRequired05c")
 
 //# sourceMappingURL=index.975ef6c8.js.map

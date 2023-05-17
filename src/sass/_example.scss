@@ -13,7 +13,7 @@ body {
   font-family: cursive;
 
   color: #2a2a2a;
-  /* background-color: #d4e6f1; */
+  // background-color: #d4e6f1;
   background-image: url("../images/map.jpg");
   background-repeat: no-repeat;
   background-position: top 120px center;
@@ -70,6 +70,7 @@ img {
 
 .card-img {
   width: 400px;
+  border: 1px solid grey;
 }
 
 .card-text {
