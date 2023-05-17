@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  padding: 50px 200px;
+  padding: 50px 120px;
 
   font-size: 30px;
   line-height: 1.5;
@@ -69,11 +69,19 @@ img {
 }
 
 .card-img {
-  width: 400px;
+  width: 350px;
   border: 1px solid grey;
+}
+
+.card-img-coat{
+  width: 150px;
 }
 
 .card-text {
   padding: 0;
   margin: 0 0 15px 0;
+}
+
+.text-container {
+  margin: 0 20px 0 20px;
 }
