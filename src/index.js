@@ -23,8 +23,12 @@ function onSearchInput() {
 }
 
 function searchResult(countries) {
+    if (countries.status ===  404) {
+        clearCountriesContainer();
+        pnotify.Error();
+    }
+  
     const numberOfCountries = countries.length;
-    console.log('countries', countries);
 
     const countriesObject = countries.map((country) => ({
         name: country.name.official,
@@ -32,8 +36,10 @@ function searchResult(countries) {
         population: country.population,
         languages: Object.values(country.languages)[0],
         flag: country.flags.png,
+        googleMap: country.maps.googleMaps,
+        coatOfArms: country.coatOfArms.png,
+        currency: Object.values(country.currencies)[0].name,
     }));
-    console.log('countriesObject', countriesObject);
 
     if (numberOfCountries === 1) {
         renderResultMarkup(countriesObject, countryCardTpl);
